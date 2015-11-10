@@ -3,7 +3,7 @@
 class: CommandLineTool
 
 description: |
-Diff two SAM/BAM files outputting discrepant reads in corresponding SAM/BAM files
+  Diff two SAM/BAM files outputting discrepant reads in corresponding SAM/BAM files
 
 dct:creator:
   foaf:name: Andy Yang
