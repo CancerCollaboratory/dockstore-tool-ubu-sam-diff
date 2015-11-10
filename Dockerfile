@@ -1,6 +1,6 @@
-FROM java:8-jdk
+# adapted from https://github.com/BD2KGenomics/cgl-docker-lib/tree/master/ubu 
 
-#MAINTAINER Aashish Jain, 17AashishJ@students.harker.org
+FROM java:8-jdk
 
 RUN apt-get -y update \
   && apt-get -y install wget
@@ -15,4 +15,4 @@ RUN mv ubu.jar /opt/ubu/
 RUN mkdir /data
 WORKDIR /data
 
-#ENTRYPOINT ["sh", "/opt/ubu/wrapper.sh"]
+ENTRYPOINT ["sh", "/opt/ubu/wrapper.sh"]
