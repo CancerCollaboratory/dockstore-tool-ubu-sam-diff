@@ -3,21 +3,7 @@
 class: CommandLineTool
 
 description: |
-  liftOver - Move annotations from one assembly to another
-  usage:
-     liftOver oldFile map.chain newFile unMapped
-  oldFile and newFile are in bed format by default, but can be in GFF and
-  maybe eventually others with the appropriate flags below.
-  The map.chain file has the old genome as the target and the new genome
-  as the query.
-
-  ***********************************************************************
-  WARNING: liftOver was only designed to work between different
-           assemblies of the same organism. It may not do what you want
-           if you are lifting between different organisms. If there has
-           been a rearrangement in one of the species, the size of the
-           region being mapped may change dramatically after mapping.
-  ***********************************************************************
+Diff two SAM/BAM files outputting discrepant reads in corresponding SAM/BAM files
 
 dct:creator:
   foaf:name: Andy Yang
