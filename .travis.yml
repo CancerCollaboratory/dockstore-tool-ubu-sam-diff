@@ -15,7 +15,7 @@ jdk:
   - oraclejdk8
 
 before_install:
-        - docker build -t quay.io/cancercollaboratory/dockstore-tool-ubu-sam-diff .
+  - docker build -t quay.io/cancercollaboratory/dockstore-tool-ubu-sam-diff .
   - pip2.7 install --user setuptools==24.0.3
 
 install: 
