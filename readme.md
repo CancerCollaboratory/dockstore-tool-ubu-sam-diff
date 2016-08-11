@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/CancerCollaboratory/dockstore-tool-ubu-sam-diff.svg)](https://travis-ci.org/CancerCollaboratory/dockstore-tool-ubu-sam-diff)
-[![Docker Repository on Quay](https://quay.io/repository/collaboratory/dockstore-tool-ubu-sam-diff/status "Docker Repository on Quay")](https://quay.io/repository/collaboratory/dockstore-tool-ubu-sam-diff)
+[![Docker Repository on Quay](https://quay.io/repository/cancercollaboratory/dockstore-tool-ubu-sam-diff/status "Docker Repository on Quay")](https://quay.io/repository/cancercollaboratory/dockstore-tool-ubu-sam-diff)
 
 This tool has been validated as a CWL draft-3 and v1.0 CommandLineTool. 
 
