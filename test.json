@@ -1,0 +1,12 @@
+{
+  "out2": "out2.sam",
+  "out1": "out1.sam",
+  "in2": {
+    "path": "test2.sam",
+    "class": "File"
+  },
+  "in1": {
+    "path": "test1.sam",
+    "class": "File"
+  }
+}
